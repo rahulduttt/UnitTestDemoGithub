@@ -1,0 +1,6 @@
+.vs
+UnitTestDemoGithubActions/bin/
+UnitTestDemoGithubActions/obj
+
+UnitTests/bin/
+UnitTests/obj
