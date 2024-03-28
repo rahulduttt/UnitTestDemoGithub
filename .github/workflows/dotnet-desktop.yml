@@ -18,4 +18,4 @@ jobs:
           dotnet-version: '8.0.x'  # You can change this to your desired version
 
       - name: Run unit tests
-        run: dotnet test **/UnitTests/*.csproj --no-build
+        run: dotnet test '../UnitTests/UnitTests.csproj' --no-build
