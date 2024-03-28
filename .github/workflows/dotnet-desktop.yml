@@ -15,7 +15,7 @@ jobs:
       - name: Use .NET Core sdk
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '6.0'  # You can change this to your desired version
+          dotnet-version: '8.0.x'  # You can change this to your desired version
 
       - name: Restore dependencies
         run: dotnet restore
