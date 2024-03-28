@@ -17,8 +17,5 @@ jobs:
         with:
           dotnet-version: '8.0.x'  # You can change this to your desired version
 
-      - name: Restore dependencies
-        run: dotnet restore
-
       - name: Run unit tests
-        run: dotnet test --no-build
+        run: dotnet test **/UnitTests/*.csproj --no-build
